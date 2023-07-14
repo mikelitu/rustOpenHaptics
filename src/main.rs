@@ -1,5 +1,5 @@
 use rust_open_haptics::init_device;
 
 fn main() {
-    println!("{:?}", init_device());
+    println!("The ID from the connected device is {:?}", init_device().unwrap());
 }
